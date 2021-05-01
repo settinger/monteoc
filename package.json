@@ -11,13 +11,21 @@
     "boilerplate"
   ],
   "author": "Sam Ettinger <ettingersam@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/settinger/monteoc.git"
+  },
   "license": "MIT",
+  "bin": {
+    "monteoc": "./bin/start.js"
+  },
   "dependencies": {
     "@babel/core": "^7.14.0",
     "@babel/preset-env": "^7.14.0",
     "@babel/preset-react": "^7.13.13",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.4",
+    "fs-extra": "^9.1.0",
     "html-webpack-plugin": "^5.3.1",
     "less": "^4.1.1",
     "less-loader": "^8.1.1",
